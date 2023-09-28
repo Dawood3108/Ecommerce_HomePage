@@ -1,0 +1,233 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.logo {
+  max-width: 100%;
+  height: 40px;
+  /* max-width: 65px;
+/* padding-top: 25px;
+max-height: 145px; */
+  /* will-change: filter;
+  transition: filter 300ms;  */
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+}
+p {
+  font-size: 15px;
+ 
+display: flex;
+  color:black;
+margin: 10px;
+}
+
+h1 {
+  font-weight: 500;
+  color: deeppink;
+  font-size: 40px;
+  margin: 10px;
+}
+h2 {
+  font-weight: 400px;
+  color: rgb(151, 151, 190);
+  font-size: 32px;
+  margin: 10px;
+}
+span{
+  border-radius: 20px;
+
+}
+button {
+  padding: 12px 10px;
+  font-size: 14px;
+  background-color: rgb(85, 85, 140);
+  color: white;
+}
+.button-link {
+  padding: 12px 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  background: rgb(52, 109, 109);
+  margin: 5px;
+  transform: 0.5s ease;
+  border: 1px solid transparent;
+}
+.button-link:hover {
+  background: transparent;
+  color: green;
+  border: 1px solid rgb(9, 9, 113);
+  cursor: pointer;
+}
+.active {
+  font-weight: 600;
+
+  text-decoration: underline;
+  color: blue;
+}
+.inactive {
+  color: darkkhaki;
+  font-weight: 400;
+}
+
+/* header is started from here */
+.header-top-strip {
+  background-color: rgb(122, 122, 147);
+}
+.input-group button {
+  background: turquoise;
+  font-size: 14px;
+}
+.header-upper {
+  background-color: lightblue;
+}
+
+.input-group input:focus {
+  outline: lightgrey;
+}
+.nav-links a {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-links-nav a {
+  color: red;
+}
+.nav-links-nav a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.social-icons a {
+  color: orangered;
+}
+
+/* header end here */
+
+/*footer start  */
+.footer {
+  background-color: rgb(146, 146, 175);
+}
+
+.pay img {
+  transition: 0.5s ease;
+  border-radius: 20px solid black;
+}
+.pay img:hover {
+  transform: translateY(-10px);
+}
+
+/*footer ends  */
+
+/* Home begin */
+.banner-details {
+  background: url(/src/assets/images/back.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+}
+
+
+
+.hero-detials img{
+width:100px;
+height:80px ;
+
+}
+
+.featured-products.card{
+  border-radius:20px;
+  max-width:250px;
+ height:20px;
+}
+.featured-products.card span{
+  color:darkslategrey;
+
+}
+
+
+
+.repair {
+  background: url(/src/assets/images/banner/b2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+.button-repair{
+  padding:12px 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  color:azure;
+ 
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+}
+.button-repair:hover{
+  background-color: transparent;
+}
+
+.new-products .card img{
+border-radius: 20px;
+}
+.new-products .card span{
+  color:brown;
+width:100%;
+
+
+
+}
+.img-fluid{
+  height: auto;
+  width: 80%;
+}
+.button-deals{
+  padding:10px 8px;
+  font-size: 18px;
+  border-radius: 10px;
+  color:azure;
+ 
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+
+}
+.button-deals:hover{
+  background: transparent
+  ;
+  color:white ;
+  border: 1px solid palegreen;
+}
+.button-blog{
+padding:10px 8px;
+font-size: 18px;
+border-radius: 10px;
+background: transparent;
+color:rgb(125, 34, 34);
+border: 1px solid transparent;
+transition: 0.8s ease;
+
+
+}
+.button-blog:hover{
+  background: transparent;
+  color: aquamarine;
+  
+
+
+}
+
+/* home ends */
+
